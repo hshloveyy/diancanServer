@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name></display-name>
+  <servlet>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.gd.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <servlet-name>BookServlet</servlet-name>
+    <servlet-class>com.gd.BookServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserAction</servlet-name>
+    <servlet-class>com.gd.control.UserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FormAction</servlet-name>
+    <servlet-class>com.gd.control.FormAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OwnerAction</servlet-name>
+    <servlet-class>com.gd.control.OwnerAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServiceEngineerAction</servlet-name>
+    <servlet-class>com.gd.control.ServiceEngineerAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CuserAction</servlet-name>
+    <servlet-class>com.gd.control.CuserAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CRegAction</servlet-name>
+    <servlet-class>com.gd.control.CRegAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CFormAction</servlet-name>
+    <servlet-class>com.gd.control.CFormAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>Record</servlet-name>
+    <servlet-class>com.gd.control.Record</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderAction</servlet-name>
+    <servlet-class>com.gd.control.OrderAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ComplainAction</servlet-name>
+    <servlet-class>com.gd.control.ComplainAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CloudAction</servlet-name>
+    <servlet-class>com.gd.control.CloudAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DeviceAction</servlet-name>
+    <servlet-class>com.gd.control.DeviceAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>VideoAction</servlet-name>
+    <servlet-class>com.gd.control.VideoAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MsgAction</servlet-name>
+    <servlet-class>com.gd.control.MsgAction</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UploadServlet</servlet-name>
+    <servlet-class>com.gd.control.UploadServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>FoodAction</servlet-name>
+    <servlet-class>com.gd.control.FoodAction</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userlogin</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>BookServlet</servlet-name>
+    <url-pattern>/book</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserAction</servlet-name>
+    <url-pattern>/user</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FormAction</servlet-name>
+    <url-pattern>/form</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OwnerAction</servlet-name>
+    <url-pattern>/owner</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServiceEngineerAction</servlet-name>
+    <url-pattern>/engineer</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CuserAction</servlet-name>
+    <url-pattern>/cuser</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CRegAction</servlet-name>
+    <url-pattern>/creg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CFormAction</servlet-name>
+    <url-pattern>/cform</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>Record</servlet-name>
+    <url-pattern>/record</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderAction</servlet-name>
+    <url-pattern>/order</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ComplainAction</servlet-name>
+    <url-pattern>/complain</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CloudAction</servlet-name>
+    <url-pattern>/cloud</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DeviceAction</servlet-name>
+    <url-pattern>/device</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>VideoAction</servlet-name>
+    <url-pattern>/video</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MsgAction</servlet-name>
+    <url-pattern>/msg</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UploadServlet</servlet-name>
+    <url-pattern>/upload</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>FoodAction</servlet-name>
+    <url-pattern>/food</url-pattern>
+  </servlet-mapping>	
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
